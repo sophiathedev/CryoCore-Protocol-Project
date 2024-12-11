@@ -1,46 +1,52 @@
-# Ý Tưởng Dự Án
+# Project Ideas
 
-Nhánh này được sử dụng để tập hợp, thảo luận và phát triển các ý tưởng cho dự án. Mục tiêu là tạo ra một không gian để ghi lại mọi ý tưởng sáng tạo, cải tiến hoặc các khía cạnh cần thử nghiệm trước khi triển khai vào các nhánh chính.
-
----
-
-## Mục Đích
-
-- **Ghi lại ý tưởng**: Tất cả các ý tưởng liên quan đến dự án sẽ được lưu trữ ở đây để tham khảo.
-- **Thảo luận**: Là nơi để các thành viên trong nhóm thảo luận về khả năng thực hiện của các ý tưởng.
-- **Thử nghiệm ban đầu**: Một số tính năng có thể được thử nghiệm sơ bộ tại nhánh này.
+This branch is used to collect, discuss, and develop ideas for the project. The goal is to create a space to record any creative ideas, improvements, or aspects that need to be tested before implementing them into the main branches.
 
 ---
 
-## Hướng Dẫn Sử Dụng
+## Purpose
 
-1. **Thêm ý tưởng**:
-   - Tạo file Markdown mới hoặc chỉnh sửa file hiện có để ghi lại ý tưởng của bạn.
-   - File ý tưởng nên có cấu trúc rõ ràng như: 
-     - Tên ý tưởng
-     - Mô tả ngắn gọn
-     - Lợi ích
-     - Các bước thực hiện hoặc thử nghiệm.
-2. **Thảo luận nhóm**:
-   - Sử dụng GitHub Issues hoặc thêm bình luận vào các commit trong nhánh để thảo luận về ý tưởng.
+- **Idea Recording**: All ideas related to the project will be stored here for reference.
 
-3. **Đánh giá và triển khai**:
-   - Khi ý tưởng được chấp nhận, có thể chuyển sang nhánh phát triển chính để triển khai.
+- **Discussion**: This is where team members discuss the feasibility of ideas.
+
+- **Initial Testing**: Some features can be tested in this branch.
 
 ---
 
-## Lưu Ý
+## How to Use
 
-- Nhánh này không nên chứa mã nguồn đã hoàn thiện hoặc triển khai.  
-- Mọi thay đổi trong nhánh này nên được đánh dấu rõ ràng với các mô tả chi tiết trong commit để tránh nhầm lẫn.
+1. **Add Idea**:
+- Create a new Markdown file or edit an existing file to record your idea.
+
+- The idea file should have a clear structure such as:
+
+- Idea name
+- Short description
+- Benefits
+- Steps to implement or test.
+
+2. **Group Discussion**:
+- Use GitHub Issues or add comments to commits in the branch to discuss the idea.
+
+3. **Evaluate and Implement**:
+- Once the idea is accepted, it can be moved to the main development branch for implementation.
 
 ---
 
-## Tác Giả
+## Note
+
+- This branch should not contain completed or deployed source code.
+
+- Any changes in this branch should be clearly marked with detailed descriptions in the commit to avoid confusion.
+
+---
+
+## Author
 
 - **An Long** - [GitHub Profile](https://github.com/anlongvrdev)
-- **Đóng góp**: Tung (Brain rot).
+- **Contributors**: Tung (Brain rot).
 
 ---
 
-Cảm ơn đã đóng góp vào việc phát triển ý tưởng cho dự án!
+Thanks for contributing to the development of the project idea!
