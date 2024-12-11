@@ -23,30 +23,30 @@ To clone the game project to your local machine, follow these steps:
   
 ### 4. Navigate to the cloned repository folder:
   cd your-game-repository
-5. Open the project in Unity:
+### 5. Open the project in Unity:
 Open Unity Hub and select the project folder you just cloned to open it in Unity.
-6. Install dependencies (if applicable):
+### 6. Install dependencies (if applicable):
 If your project uses any external libraries or assets (such as Unity Package Manager), make sure they are installed by following the instructions in the setup guide (if provided).
 
 # Example: installing necessary packages or dependencies
 # You can use the Unity Package Manager or run the following command to install dependencies.
 
-7. Open the project in Visual Studio Code (or your preferred IDE):
+### 7. Open the project in Visual Studio Code (or your preferred IDE):
 If you want to make code changes or work on the scripts, open the project folder in Visual Studio Code:
     code .
-# Branching and Collaboration
+#### Branching and Collaboration
   The project uses Git branches for different features and development stages.
-# To create a new branch for a feature, run the following command:
+#### To create a new branch for a feature, run the following command:
   git checkout -b feature-name
-# After making changes, stage and commit your work:
+#### After making changes, stage and commit your work:
   git add .
   git commit -m "Description of the changes"
-# Push your changes to the repository:
+#### Push your changes to the repository:
   git push origin feature-name
-# Create a pull request (PR) through GitHub to merge your changes into the main branch.
+#### Create a pull request (PR) through GitHub to merge your changes into the main branch.
   Contribution Guidelines
 
-## We welcome contributions! Please follow these steps to contribute:
+### We welcome contributions! Please follow these steps to contribute:
 
 Fork the repository and clone it to your machine.
 Create a new branch for your feature.
