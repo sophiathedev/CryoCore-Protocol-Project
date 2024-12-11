@@ -1,0 +1,1 @@
+- Yêu cầu người chơi đạt ở từng mốc [[Cấp Độ]] mới có thể đánh được boss

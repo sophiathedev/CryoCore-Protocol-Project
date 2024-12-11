@@ -1,0 +1,1 @@
+Vũ khí bao gồm [[Kiếm]], [[Súng]]. Kiếm có thể chuyển thành súng và ngược lại tương ứng với từng mức rank khác nhau
