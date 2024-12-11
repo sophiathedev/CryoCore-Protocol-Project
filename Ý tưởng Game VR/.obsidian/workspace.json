@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vũ khí.md",
+                "file": "Công cụ hỗ trợ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vũ khí"
+              "title": "Công cụ hỗ trợ"
             }
           }
         ]
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Vũ khí.md",
+                "file": "Công cụ hỗ trợ.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -61,7 +61,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Vũ khí"
+              "title": "Graph of Công cụ hỗ trợ"
             }
           }
         ]
@@ -83,7 +83,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -204,24 +204,24 @@
   },
   "active": "d009ab6d8d37a3a4",
   "lastOpenFiles": [
-    "Quái.md",
-    "Tàu không gian.md",
+    "Cốt truyện.md",
+    "Súng.md",
     "Quest.md",
     "NPC.md",
-    "Trang Bị.md",
-    "Vũ khí.md",
-    "Thuộc Tính.md",
     "Nhân vật.md",
-    "Game VR SCi-fi, Adventure.md",
     "Kiếm.md",
-    "Độ Bền.md",
+    "Game VR SCi-fi, Adventure.md",
+    "Trang Bị.md",
+    "Tàu không gian.md",
+    "Vũ khí.md",
     "Vũ trụ.md",
-    "Cấp Độ.md",
-    "Vàng.md",
-    "Súng.md",
-    "Cốt truyện.md",
-    "Công cụ hỗ trợ.md",
+    "Độ Bền.md",
     "Boss.md",
+    "Công cụ hỗ trợ.md",
+    "Cấp Độ.md",
+    "Quái.md",
+    "Thuộc Tính.md",
+    "Vàng.md",
     "Pasted image 20241208214144.png.md",
     "Pasted image 20241208212142.png.md",
     "Untitled",
