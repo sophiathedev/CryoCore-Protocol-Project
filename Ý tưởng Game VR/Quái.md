@@ -43,50 +43,49 @@ Mỗi loại quái sẽ có bảng loot riêng, xác định các vật phẩm m
 
 1. **Shambler**
     
-    - **Đặc Điểm**: Chậm chạp, phản ứng chậm. Chỉ tấn công khi người chơi tiếp cận gần.
-    - **Tấn Công**: Vung hai tay.
-    - **Máu**: Trung bình yếu.
-    - **Giáp**: Không có.
+    - **Đặc Điểm**: Quái vật chậm chạp với thân hình to lớn và cứng nhắc, di chuyển chậm và phản ứng cũng không nhanh. Chỉ tấn công khi người chơi lại gần.
+    - **Tấn Công**: Vung mạnh tay để gây sát thương.
+    - **Máu**: Trung bình yếu, dễ tiêu diệt.
+    - **Giáp**: Không có, dễ dàng bị tấn công.
     
     **Evolved Shambler (Elite)**
     
-    - **Đặc Điểm**: To lớn hơn Shambler thường, da tối màu hơn.
-    - **Tốc Độ**: Di chuyển và máu cao hơn.
-    - **Giáp**: Yếu hơn, nhưng tăng đáng kể so với Shambler thường.
+    - **Đặc Điểm**: To lớn hơn và có làn da tối màu hơn Shambler thường. Sự biến đổi này giúp nó mạnh mẽ hơn.
+    - **Tốc Độ**: Di chuyển và máu cao hơn so với Shambler thường.
+    - **Giáp**: Yếu hơn so với Shambler thường, nhưng tăng đáng kể.
 2. **Runner**
     
-    - **Đặc Điểm**: Thân hình mảnh mai, phản ứng nhanh. Chạy thẳng đến khi phát hiện người chơi.
-    - **Tấn Công**: Hai bàn tay biến thành nanh vuốt, sát thương cao và tốc độ đánh nhanh.
-    - **Máu**: Yếu.
+    - **Đặc Điểm**: Quái vật có thân hình mảnh mai và rất nhanh nhẹn. Chạy thẳng về phía người chơi khi phát hiện ra.
+    - **Tấn Công**: Hai tay biến thành nanh vuốt sắc bén, gây sát thương cao và tốc độ đánh nhanh.
+    - **Máu**: Yếu, dễ bị hạ gục.
     - **Giáp**: Không có.
     
     **Sprinter (Elite)**
     
-    - **Đặc Điểm**: Giống Runner nhưng da đỏ thẫm và có nhiều mảnh da bị tróc.
-    - **Tốc Độ**: Rất nhanh, khả năng đổi hướng linh hoạt.
-    - **Sát Thương và Tốc Độ Đánh**: Cao hơn Runner 1.5 lần.
+    - **Đặc Điểm**: Tương tự Runner nhưng với làn da đỏ thẫm và nhiều mảnh da bị tróc. Di chuyển cực kỳ nhanh.
+    - **Sát Thương và Tốc Độ Đánh**: Cao hơn Runner, tấn công và đổi hướng linh hoạt gấp 1.5 lần.
     - **Máu**: Trung bình.
     - **Giáp**: Không có.
 3. **Brute**
     
-    - **Đặc Điểm**: Cơ bắp mạnh mẽ, cao khoảng 2m1 - 2m2. Giáp cao nhưng di chuyển chậm.
-    - **Tấn Công**: Đấm mạnh khi tiếp cận gần.
-    - **Máu**: Cao.
-    - **Giáp**: Trung bình cao.
+    - **Đặc Điểm**: Quái vật cơ bắp vạm vỡ, cao khoảng 2m1 - 2m2. Di chuyển chậm và có giáp cao.
+    - **Tấn Công**: Đấm mạnh vào người chơi khi tiếp cận gần.
+    - **Máu**: Cao, khó bị hạ gục nhanh.
+    - **Giáp**: Trung bình cao, chịu đựng được nhiều đòn tấn công.
     
     **Tank (Elite)**
     
-    - **Đặc Điểm**: To lớn và cứng cáp hơn Brute, có tấm vỏ giáp xương quanh người.
-    - **Kháng Đạn Vật Lý**: Tăng mạnh.
+    - **Đặc Điểm**: To lớn hơn Brute, có lớp vỏ giáp xương bảo vệ cơ thể. Trở nên rất cứng cáp và mạnh mẽ.
+    - **Kháng Đạn Vật Lý**: Tăng mạnh khả năng chống chịu các đòn tấn công vật lý.
     - **Tấn Công**: Mạnh mẽ, mỗi đòn có thể đánh bay và làm choáng người chơi.
-    - **Máu**: Rất cao.
-    - **Giáp**: Trung bình cao với khả năng kháng vật lý tốt.
+    - **Máu**: Rất cao, khó tiêu diệt.
+    - **Giáp**: Kháng vật lý tốt, trung bình cao.
 4. **Bladed Arm**
     
-    - **Đặc Điểm**: Hai tay biến dạng thành lưỡi kiếm dài, sắc bén.
-    - **Tấn Công**: Chạy tới và dùng lưỡi kiếm chắn mặt, ngăn người chơi headshot. Chém từ khoảng cách xa hơn Shambler, Runner và Brute.
+    - **Đặc Điểm**: Hai tay biến thành lưỡi kiếm dài sắc bén, có khả năng tấn công từ xa hơn các quái vật tầm gần khác.
+    - **Tấn Công**: Sử dụng lưỡi kiếm chắn mặt để ngăn người chơi headshot và gây sát thương mạnh.
     - **Máu**: Trung bình cao.
-    - **Tốc Độ Đánh**: Nhanh.
+    - **Tốc Độ Đánh**: Nhanh, khả năng tấn công liên tục.
     - **Sát Thương**: Cao.
     - **Giáp**: Trung bình.
 
@@ -94,34 +93,35 @@ Mỗi loại quái sẽ có bảng loot riêng, xác định các vật phẩm m
 
 1. **Spike Thrower**
     
-    - **Đặc Điểm**: Mọc cây gai nhọn lớn ở lưng. Tay phải dài và linh hoạt hơn tay trái.
-    - **Tấn Công**: Phóng gai từ tay phải khi người chơi trong tầm.
-    - **Độ Chính Xác**: Cao.
-    - **Tốc Độ Đánh**: Trung bình.
+    - **Đặc Điểm**: Mọc cây gai nhọn lớn ở lưng và tay phải dài linh hoạt.
+    - **Tấn Công**: Phóng gai nhọn từ tay phải khi người chơi vào tầm, có độ chính xác cao.
+    - **Độ Chính Xác**: Cao, khó tránh khỏi đòn tấn công.
+    - **Tốc Độ Đánh**: Trung bình, không quá nhanh nhưng đều đặn.
     - **Sát Thương**: Trung bình cao.
     - **Máu**: Trung bình.
     
     **Acid Thrower (Elite)**
     
-    - **Đặc Điểm**: Tương tự Spike Thrower nhưng có dịch acid tràn lan từ nhiều nơi trên cơ thể.
-    - **Tấn Công**: Phóng gai tẩm acid, gây sát thương ăn mòn hiệu quả với giáp vật lý.
+    - **Đặc Điểm**: Tương tự Spike Thrower nhưng có dịch acid tràn lan từ cơ thể.
+    - **Tấn Công**: Phóng gai tẩm acid gây sát thương ăn mòn hiệu quả, nhất là với giáp vật lý.
     - **Sát Thương**: Cao hơn chút so với bản thường.
 2. **Controller**
     
-    - **Đặc Điểm**: Hai tay là đống thịt bùi nhùi, có màng chằng như bề mặt nấm.
-    - **Khả Năng Tấn Công**: Không có đòn tấn công riêng, đứng một mình không thể gây hại.
-    - **Khả Năng Hỗ Trợ**: Có thể bám vào trụ súng tự động gần đó để điều khiển chúng bắn vào người chơi.
-    - **Xuất Hiện**: Chỉ ở các cửa trong căn cứ hoặc tàu vũ trụ bị xâm lược.
+    - **Đặc Điểm**: Hai tay là đống thịt bùi nhùi với màng chằng giống bề mặt nấm. Không có khả năng tấn công trực tiếp.
+    - **Khả Năng Tấn Công**: Không tấn công trực tiếp, chỉ có thể bám vào các trụ súng tự động gần đó và điều khiển chúng bắn vào người chơi.
+    - **Xuất Hiện**: Chủ yếu ở các cửa trong căn cứ hoặc tàu vũ trụ bị xâm lược.
 
 #### **3.2. Loại 3: Quái Đặc Biệt**
 
 1. **Broodmother**
-    - **Đặc Điểm**: Bụng trương phình với miệng ở vị trí rốn. Không thể tự tấn công nhưng có khả năng sinh sản quái con.
-    - **Khả Năng Tấn Công**: "Nôn" ra đàn quái con gồm 4-5 con sâu nhỏ có răng sắc. Quái con bò đến tấn công người chơi.
-    - **Phản Ứng Khi Bị Tấn Công**: Rít lớn cảnh báo cho các quái xung quanh, tất cả quái nghe thấy sẽ tiến về phía người chơi.
-    - **Đặc Biệt**: Quái con được buff khi bảo vệ Broodmother.
+    - **Đặc Điểm**: Bụng trương phình và miệng ở vị trí rốn, không thể tự tấn công. Khả năng sinh sản quái con vô cùng mạnh mẽ.
+    - **Khả Năng Tấn Công**: "Nôn" ra đàn quái con, mỗi đàn gồm 4-5 con sâu nhỏ có răng sắc, sẽ bò đến tấn công người chơi.
+    - **Phản Ứng Khi Bị Tấn Công**: Rít lớn cảnh báo cho các quái vật xung quanh, tất cả chúng sẽ hướng về phía người chơi.
+    - **Đặc Biệt**: Các quái con được buff khi bảo vệ Broodmother.
     - **Máu**: Cao.
-    - **Giáp**: Trung bình.
+    - **Giáp**: Trung bình, có khả năng chịu đựng nhiều đòn tấn công.
+
+4o mini
 
 ### **4. Hành Vi và Trí Tuệ của Quái Vật**
 

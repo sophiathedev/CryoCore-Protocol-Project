@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tàu không gian.md",
+                "file": "Quái.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tàu không gian"
+              "title": "Quái"
             }
           }
         ]
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Tàu không gian.md",
+                "file": "Quái.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -61,7 +61,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Tàu không gian"
+              "title": "Graph of Quái"
             }
           }
         ]
@@ -204,23 +204,23 @@
   },
   "active": "d009ab6d8d37a3a4",
   "lastOpenFiles": [
+    "Thuộc Tính.md",
+    "Trang Bị.md",
+    "Vàng.md",
+    "Vũ khí.md",
+    "Vũ trụ.md",
+    "Quest.md",
+    "Quái.md",
+    "Súng.md",
+    "Kiếm.md",
+    "Tàu không gian.md",
     "Cốt truyện.md",
     "Độ Bền.md",
     "Game VR SCi-fi, Adventure.md",
-    "Tàu không gian.md",
-    "Vũ trụ.md",
-    "Vũ khí.md",
-    "Súng.md",
-    "Quest.md",
-    "Quái.md",
     "NPC.md",
     "Nhân vật.md",
-    "Kiếm.md",
     "Công cụ hỗ trợ.md",
     "Cấp Độ.md",
-    "Vàng.md",
-    "Trang Bị.md",
-    "Thuộc Tính.md",
     "Boss.md",
     "Pasted image 20241208214144.png.md",
     "Pasted image 20241208212142.png.md",
