@@ -28,8 +28,8 @@ Open Unity Hub and select the project folder you just cloned to open it in Unity
 ### 6. Install dependencies (if applicable):
 If your project uses any external libraries or assets (such as Unity Package Manager), make sure they are installed by following the instructions in the setup guide (if provided).
 
-# Example: installing necessary packages or dependencies
-# You can use the Unity Package Manager or run the following command to install dependencies.
+#### Example: installing necessary packages or dependencies
+#### You can use the Unity Package Manager or run the following command to install dependencies.
 
 ### 7. Open the project in Visual Studio Code (or your preferred IDE):
 If you want to make code changes or work on the scripts, open the project folder in Visual Studio Code:
