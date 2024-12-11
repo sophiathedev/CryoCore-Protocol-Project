@@ -21,14 +21,6 @@ Nhánh này được sử dụng để tập hợp, thảo luận và phát tri�
      - Mô tả ngắn gọn
      - Lợi ích
      - Các bước thực hiện hoặc thử nghiệm.
-   - Ví dụ:
-     ```markdown
-     ### Ý tưởng: Tính năng lọc dữ liệu thông minh
-     - **Mô tả**: Hệ thống tự động gợi ý bộ lọc phù hợp dựa trên hành vi của người dùng.
-     - **Lợi ích**: Giúp tăng tốc độ truy xuất thông tin.
-     - **Thử nghiệm**: Áp dụng mô hình học máy cơ bản để đánh giá hiệu quả.
-     ```
-
 2. **Thảo luận nhóm**:
    - Sử dụng GitHub Issues hoặc thêm bình luận vào các commit trong nhánh để thảo luận về ý tưởng.
 
