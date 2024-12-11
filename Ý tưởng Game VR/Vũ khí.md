@@ -17,6 +17,7 @@
         - **Rank thấp (D - B)**: Người chơi có thể chuyển đổi giữa Kiếm và Súng trong các dạng cơ bản. Mỗi loại vũ khí sẽ có các chỉ số và thuộc tính riêng tương ứng với rank của chúng.
         - **Rank cao (A - S)**: Khi đạt đến các rank cao hơn, người chơi có thể nhận được vũ khí mạnh mẽ hơn, với khả năng chuyển đổi mượt mà hơn và tăng cường hiệu quả chiến đấu.
         - **Rank đặc biệt (X)**: Các vũ khí cấp X có khả năng chuyển đổi hoàn hảo, với các tính năng đặc biệt đi kèm, chẳng hạn như tốc độ bắn nhanh hơn, đòn tấn công mạnh mẽ hơn, và những khả năng siêu việt trong chiến đấu.
+			**Note: Vũ khí Rank đặc biệt có 1 - 2 vũ khí**
 
 ### **Tính Năng Đặc Biệt**
 
