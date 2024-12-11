@@ -1,36 +1,150 @@
-!Phân theo RPG chính thống: 3 loại quái
-- Quái thường: để farm tài nguyên(các items để sửa vũ khí và đồ, [[Vàng]]) và exp
-- Quái Elite: hiếm và mạnh hơn so với quái thường nhưng yếu hơn Boss
-- Boss: Mỗi chương truyện có 1 [Boss] cuối chương
+### **1. Phân Loại Quái Vật**
 
-==Loot== tạo 1 bảng loot table cho quái. Mỗi boss có loot table riêng.
-Tạo hình quái vật trong game:   
+Trong game RPG của bạn, quái vật được phân thành ba loại chính, mỗi loại có đặc điểm và mục đích riêng biệt:
 
-==Mục 1: Quái thường + Dạng Elite ==
--Loại 1: quái tầm gần 
+- **Quái Thường**:
+    
+    - **Mục Đích**: Là nguồn tài nguyên chính, cung cấp các vật phẩm để sửa chữa vũ khí và đồ đạc, vàng, và kinh nghiệm cho người chơi.
+    - **Đặc Điểm**: Số lượng nhiều, dễ gặp, phù hợp để farm tài nguyên và kinh nghiệm.
+- **Quái Elite**:
+    
+    - **Mục Đích**: Thách thức người chơi với sức mạnh và khả năng cao hơn, nhưng vẫn dễ bị đánh bại hơn so với Boss.
+    - **Đặc Điểm**: Hiếm hơn quái thường, có kỹ năng và khả năng đặc biệt, đòi hỏi chiến thuật và kỹ năng cao hơn từ người chơi.
+- **Boss**:
+    
+    - **Mục Đích**: Là điểm nhấn của mỗi chương truyện, đánh dấu sự kết thúc của một phần lớn trong cốt truyện.
+    - **Đặc Điểm**: Rất mạnh mẽ, có khả năng đặc biệt, thường mang theo bảng loot riêng biệt với những vật phẩm quý hiếm.
 
-- Shambler: tương đối chậm chạp, phản ứng chậm. Chỉ aggro ng chơi khi bị lại gần. Tiếp cận ng chơi = cách đi thường, ko thể chạy hay nhảy. Tấn công = cách vung 2 tay. Máu trung bình yếu. Ko có giáp
-----> Evolved Shambler (Elite): To hơn dạng thường 1 chút, da tối màu hơn. Tốc độ di chuyển, máu và giáp cao hơn. Tốc độ đánh giữ nguyên so với shambler thường. Máu cao. Giáp yếu.
+### **2. Bảng Loot (Loot Table)**
 
-- Runner: thân thể mảnh hơn shambler. Phản ứng nhanh hơn. Ngay khi thấy người chơi, chạy thẳng đến để tấn công. Tấn công = 2 bàn tay chuyển thành nanh vuốt, damage cao hơn Shambler 1 chút nhưng tốc độ đánh nhanh. Máu yếu, ko giáp
------> Sprinter (Elite): Ngoại hình na ná runner nhưng với da đỏ thẫm và nhiều mảnh da bị tróc do va quẹt. Chạy rất nhanh và có thể đổi đường chạy làm ng chơi khó ngắm bắn. S.thương và tốc độ đánh cao hơn runner 1,5x. Máu trung bình, ko giáp.
+Mỗi loại quái sẽ có bảng loot riêng, xác định các vật phẩm mà người chơi có thể nhận được khi tiêu diệt chúng. Đặc biệt, mỗi Boss sẽ có bảng loot độc đáo, chứa những vật phẩm hiếm và mạnh mẽ hơn.
 
-* Brute: đô con cơ bắp, cao 2m1 - 2m2, giáp cao nhưng di chuyển chậm và phản ứng tương đối chậm (nhưng vẫn hơn shambler). Cục súc, khi đủ gần người chơi là cho ăn đấm. Máu cao, giáp tr.bình.
------> Tank (Elite): To và cục hơn Brute. Quanh người mọc các tấm vỏ giáp xương, **tăng mạnh kháng đạn vật lý**. Tấn công rất mạnh, mỗi đòn nếu dính có thể đánh bay và làm choáng ng chơi. Máu rất cao, giáp trung bình cao (kháng v.lý)
-Khả năng nhận thức môi trường x.quanh của 2 con này thấp. Khi ko thấy người chơi trong 1 khoảng t.gian nhất định sẽ ngừng truy đuổi.
+- **Quái Thường**:
+    
+    - Vật phẩm sửa chữa.
+    - Vàng.
+    - Kinh nghiệm.
+- **Quái Elite**:
+    
+    - Vật phẩm hiếm hơn.
+    - Đồ trang bị đặc biệt.
+    - Kinh nghiệm cao hơn.
+- **Boss**:
+    
+    - Vật phẩm độc quyền.
+    - Trang bị huyền thoại.
+    - Các vật phẩm mở rộng cốt truyện.
 
-- Bladed Arm: 2 tay biến dạng thành 2 lưỡi kiếm dài, sắc. Khi phát hiện người chơi, vừa chạy tới vừa dùng 2 lưỡi kiếm để chắn mặt, ko cho ng chơi headshot. Chém người chơi nhưng giữ khoảng các hơn so với Shambler, Runner và Brute dựa vào tầm đánh của tay kiếm. Máu trung bình cao, tốc độ đánh t.đối nhanh và dam cao. Máu trung bình cao, giáp trung bình.
+### **3. Thiết Kế Hình Ảnh Quái Vật**
 
--Loại 2: Quái đánh từ xa:
+#### **3.1. Quái Thường và Dạng Elite**
 
-- Spike Thrower: mọc các cây gai nhọn to ở sau lưng. Tay phải dị dạng làm cho nó dài và linh hoạt hơn tay còn lại. Khi ng chơi ở trong tầm, nó lấy gai từ sau lưng ra và dùng t.phải phóng. Độ chính xác khá cao, tốc độ đánh trung bình và s.thương trung bình cao. Máu trung bình.
------> Acid Thrower (Elite): giống bản thường nhưng có dịch acid chảy ra từ nhiều chỗ trên cơ thể. Phóng gai tẩm acid, sát thương chỉ cao hơn chút nhưng hiệu ứng ăn mòn đặc biệt hiệu quả với giáp vật lý của người chơi.
+##### **Loại 1: Quái Tầm Gần**
 
-- Controller: 2 tay là đống thịt bùi nhùi có màng chằng như bề mặt nấm này.
-Không có đòn tấn công riêng, đứng 1 mình vô hại. Tuy vậy, có thể dùng tay để bám vào trụ súng tự động gần đó để điều khiển chúng bắn vào ng chơi. Do đ.tính này nên chỉ xuất hiện ở các cửa trong căn cứ hoặc tàu vũ trụ bị xâm lấn.
+1. **Shambler**
+    
+    - **Đặc Điểm**: Chậm chạp, phản ứng chậm. Chỉ tấn công khi người chơi tiếp cận gần.
+    - **Tấn Công**: Vung hai tay.
+    - **Máu**: Trung bình yếu.
+    - **Giáp**: Không có.
+    
+    **Evolved Shambler (Elite)**
+    
+    - **Đặc Điểm**: To lớn hơn Shambler thường, da tối màu hơn.
+    - **Tốc Độ**: Di chuyển và máu cao hơn.
+    - **Giáp**: Yếu hơn, nhưng tăng đáng kể so với Shambler thường.
+2. **Runner**
+    
+    - **Đặc Điểm**: Thân hình mảnh mai, phản ứng nhanh. Chạy thẳng đến khi phát hiện người chơi.
+    - **Tấn Công**: Hai bàn tay biến thành nanh vuốt, sát thương cao và tốc độ đánh nhanh.
+    - **Máu**: Yếu.
+    - **Giáp**: Không có.
+    
+    **Sprinter (Elite)**
+    
+    - **Đặc Điểm**: Giống Runner nhưng da đỏ thẫm và có nhiều mảnh da bị tróc.
+    - **Tốc Độ**: Rất nhanh, khả năng đổi hướng linh hoạt.
+    - **Sát Thương và Tốc Độ Đánh**: Cao hơn Runner 1.5 lần.
+    - **Máu**: Trung bình.
+    - **Giáp**: Không có.
+3. **Brute**
+    
+    - **Đặc Điểm**: Cơ bắp mạnh mẽ, cao khoảng 2m1 - 2m2. Giáp cao nhưng di chuyển chậm.
+    - **Tấn Công**: Đấm mạnh khi tiếp cận gần.
+    - **Máu**: Cao.
+    - **Giáp**: Trung bình cao.
+    
+    **Tank (Elite)**
+    
+    - **Đặc Điểm**: To lớn và cứng cáp hơn Brute, có tấm vỏ giáp xương quanh người.
+    - **Kháng Đạn Vật Lý**: Tăng mạnh.
+    - **Tấn Công**: Mạnh mẽ, mỗi đòn có thể đánh bay và làm choáng người chơi.
+    - **Máu**: Rất cao.
+    - **Giáp**: Trung bình cao với khả năng kháng vật lý tốt.
+4. **Bladed Arm**
+    
+    - **Đặc Điểm**: Hai tay biến dạng thành lưỡi kiếm dài, sắc bén.
+    - **Tấn Công**: Chạy tới và dùng lưỡi kiếm chắn mặt, ngăn người chơi headshot. Chém từ khoảng cách xa hơn Shambler, Runner và Brute.
+    - **Máu**: Trung bình cao.
+    - **Tốc Độ Đánh**: Nhanh.
+    - **Sát Thương**: Cao.
+    - **Giáp**: Trung bình.
 
--Loại 3: đặc biệt
-- Broodmother: (ảnh tham khảo)
+##### **Loại 2: Quái Đánh Từ Xa**
 
-Bụng trương phình và có miệng ở vị trí rốn. Ko tự tấn công đc nhưng có thể "nôn" ra 1 đàn quái con. Mỗi lứa cho ra 4-5 con quái nhỏ dạng sâu, có răng sắc và bò đến phía ng chơi để tấn công. Khi bị đánh, rít lớn để cảnh báo cho các quái xung quanh. Tất cả quái nghe đc sẽ tiến về phía ng chơi. Đặc biệt, các "con" của Broodmother sẽ đc buff khi bảo vệ quái mẹ. Máu cao, giáp trung bình.
+1. **Spike Thrower**
+    
+    - **Đặc Điểm**: Mọc cây gai nhọn lớn ở lưng. Tay phải dài và linh hoạt hơn tay trái.
+    - **Tấn Công**: Phóng gai từ tay phải khi người chơi trong tầm.
+    - **Độ Chính Xác**: Cao.
+    - **Tốc Độ Đánh**: Trung bình.
+    - **Sát Thương**: Trung bình cao.
+    - **Máu**: Trung bình.
+    
+    **Acid Thrower (Elite)**
+    
+    - **Đặc Điểm**: Tương tự Spike Thrower nhưng có dịch acid tràn lan từ nhiều nơi trên cơ thể.
+    - **Tấn Công**: Phóng gai tẩm acid, gây sát thương ăn mòn hiệu quả với giáp vật lý.
+    - **Sát Thương**: Cao hơn chút so với bản thường.
+2. **Controller**
+    
+    - **Đặc Điểm**: Hai tay là đống thịt bùi nhùi, có màng chằng như bề mặt nấm.
+    - **Khả Năng Tấn Công**: Không có đòn tấn công riêng, đứng một mình không thể gây hại.
+    - **Khả Năng Hỗ Trợ**: Có thể bám vào trụ súng tự động gần đó để điều khiển chúng bắn vào người chơi.
+    - **Xuất Hiện**: Chỉ ở các cửa trong căn cứ hoặc tàu vũ trụ bị xâm lược.
 
+#### **3.2. Loại 3: Quái Đặc Biệt**
+
+1. **Broodmother**
+    - **Đặc Điểm**: Bụng trương phình với miệng ở vị trí rốn. Không thể tự tấn công nhưng có khả năng sinh sản quái con.
+    - **Khả Năng Tấn Công**: "Nôn" ra đàn quái con gồm 4-5 con sâu nhỏ có răng sắc. Quái con bò đến tấn công người chơi.
+    - **Phản Ứng Khi Bị Tấn Công**: Rít lớn cảnh báo cho các quái xung quanh, tất cả quái nghe thấy sẽ tiến về phía người chơi.
+    - **Đặc Biệt**: Quái con được buff khi bảo vệ Broodmother.
+    - **Máu**: Cao.
+    - **Giáp**: Trung bình.
+
+### **4. Hành Vi và Trí Tuệ của Quái Vật**
+
+- **Khả Năng Nhận Thức Môi Trường**: Các quái thường và Elite có khả năng nhận thức môi trường xung quanh thấp. Khi không thấy người chơi trong một khoảng thời gian nhất định, chúng sẽ ngừng truy đuổi.
+    
+- **Tương Tác Trong Trận Đấu**:
+    
+    - Quái Elite có thể có kỹ năng đặc biệt, như tăng tốc độ, khả năng né tránh, hoặc sử dụng kỹ năng hỗ trợ.
+    - Boss sẽ có các pha tấn công đa dạng, yêu cầu người chơi phải thay đổi chiến thuật liên tục.
+
+### **5. Tích Hợp vào Cốt Truyện và Lối Chơi**
+
+- **Mỗi Chương Truyện**: Kết thúc mỗi chương sẽ đối đầu với một Boss, tạo nên điểm nhấn và động lực cho người chơi tiếp tục khám phá.
+    
+- **Loot và Phần Thưởng**: Việc phân loại loot theo từng loại quái sẽ khuyến khích người chơi săn lùng và chiến đấu với các loại quái phù hợp với mục tiêu của mình.
+    
+- **Thiết Kế Đồ Họa**: Mỗi loại quái và dạng Elite cần được thiết kế riêng biệt về ngoại hình, tạo nên sự đa dạng và hấp dẫn cho người chơi.
+    
+
+### **6. Bảng Loot Table Mẫu**
+
+| Loại Quái       | Vật Phẩm Sửa Chữa | Vàng      | Kinh Nghiệm | Vật Phẩm Hiếm | Trang Bị Đặc Biệt | Vật Phẩm Boss |
+| --------------- | ----------------- | --------- | ----------- | ------------- | ----------------- | ------------- |
+| **Quái Thường** | Có                | Có        | Có          | Không         | Không             | Không         |
+| **Quái Elite**  | Có                | Có        | Cao         | Có            | Có                | Không         |
+| **Boss**        | Có                | Rất nhiều | Rất cao     | Có            | Rất nhiều         | Có            |
